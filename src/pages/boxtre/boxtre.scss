@@ -1,0 +1,24 @@
+page-boxtre {
+
+  #next {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: map_get($colors, secondary);
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin: -50px 50px 0 0;
+
+    ion-icon {
+      display: flex;
+      justify-items: center;
+      margin: 0 auto;
+      align-items: center;
+      font-size: 90px;
+      color: white;
+      z-index: 20;
+    }
+  }
+
+}

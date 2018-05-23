@@ -6,11 +6,29 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import {BoxetPage} from "../pages/boxet/boxet";
+import {BoxtoPage} from "../pages/boxto/boxto";
+import {BoxtrePage} from "../pages/boxtre/boxtre";
+import {BoxfirePage} from "../pages/boxfire/boxfire";
+import {ValgetPage} from "../pages/valget/valget";
+import {ValgtoPage} from "../pages/valgto/valgto";
+import {ValgtrePage} from "../pages/valgtre/valgtre";
+import {ValgfirePage} from "../pages/valgfire/valgfire";
+import {FinishedPage} from "../pages/finished/finished";
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    BoxetPage,
+    ValgetPage,
+    BoxtoPage,
+    ValgtoPage,
+    BoxtrePage,
+    ValgtrePage,
+    BoxfirePage,
+    ValgfirePage,
+    FinishedPage
   ],
   imports: [
     BrowserModule,
@@ -19,7 +37,16 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    BoxetPage,
+    ValgetPage,
+    BoxtoPage,
+    ValgtoPage,
+    BoxtrePage,
+    ValgtrePage,
+    BoxfirePage,
+    ValgfirePage,
+    FinishedPage
   ],
   providers: [
     StatusBar,
