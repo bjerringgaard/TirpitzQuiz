@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {HomePage} from "../home/home";
 
 /**
  * Generated class for the FinishedPage page.
@@ -20,6 +21,10 @@ export class FinishedPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad FinishedPage');
+  }
+
+  goToHome() {
+    this.navCtrl.setRoot(HomePage);
   }
 
 }

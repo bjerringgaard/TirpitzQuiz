@@ -17,7 +17,13 @@ import {FinishedPage} from "../finished/finished";
 })
 export class ValgfirePage {
 
+  hideme_1: boolean;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  hide_1() {
+    this.hideme_1 = !this.hideme_1;
   }
 
   ionViewDidLoad() {
