@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {BoxtoPage} from "../boxto/boxto";
 import {FinishedPage} from "../finished/finished";
+import {HomePage} from "../home/home";
 
 /**
  * Generated class for the ValgfirePage page.
@@ -32,5 +33,9 @@ export class ValgfirePage {
 
   goToFinished() {
     this.navCtrl.setRoot(FinishedPage);
+  }
+
+  goToHome() {
+    this.navCtrl.setRoot(HomePage);
   }
 }

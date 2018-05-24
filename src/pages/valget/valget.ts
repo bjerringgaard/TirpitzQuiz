@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {BoxtoPage} from "../boxto/boxto";
+import {HomePage} from "../home/home";
 
 /**
  * Generated class for the ValgetPage page.
@@ -31,6 +32,10 @@ export class ValgetPage {
 
   goToBoxto() {
     this.navCtrl.setRoot(BoxtoPage);
+  }
+
+  goToHome() {
+    this.navCtrl.setRoot(HomePage);
   }
 
 }

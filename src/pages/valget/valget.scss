@@ -146,6 +146,28 @@ page-valget {
     }
   }
 
+  #close {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: -120px 0 0 660px;
+    opacity: 8;
+
+    ion-icon {
+      display: flex;
+      justify-items: center;
+      margin: 0 auto;
+      align-items: center;
+      font-size: 70px;
+      color: white;
+      z-index: 20;
+    }
+  }
+
   #dude {
     margin: 500px 0px 0px 430px;
     position: absolute;

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {BoxtoPage} from "../boxto/boxto";
 import {BoxtrePage} from "../boxtre/boxtre";
+import {HomePage} from "../home/home";
 
 /**
  * Generated class for the ValgtoPage page.
@@ -32,6 +33,10 @@ export class ValgtoPage {
 
   goToBoxtre() {
     this.navCtrl.setRoot(BoxtrePage);
+  }
+
+  goToHome() {
+    this.navCtrl.setRoot(HomePage);
   }
 
 }
